@@ -25,7 +25,7 @@ Change your working directory to this main folder, run `conda env create --file 
         3. `_DGP_TIGER.py`: simulate data for the POMDP synthetic data section.
         7. `_utility_RL.py`: RL algorithms used in the experiments, including FQI, FQE and related functions.
 
-## How to reproduce results
+## How to reproduce results in the paper
 Simply run the corresponding scripts:
 
 1. Figure 2: `Ohio_simu_testing.py`
