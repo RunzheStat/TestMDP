@@ -42,10 +42,26 @@ Simply run the corresponding scripts:
     2. specify the significance level alpha and order upper bound K. 
     2. run `selectOrder(data = data, K = K, alpha = alpha)`. More optional parameters can be found in the file. 
 
+
+
+## Citation
+
+Please cite our paper
+[Does the Markov Decision Process Fit the Data: Testing for the Markov Property in Sequential Decision Making (ICML 2020)](https://arxiv.org/abs/2002.01751)
+
+``` 
+@article{Shi2020DoesTM,
+  title={Does the Markov Decision Process Fit the Data: Testing for the Markov Property in Sequential Decision Making},
+  author={Chengchun Shi and Runzhe Wan and Rui Song and Wenbin Lu and Ling Leng},
+  journal={ArXiv},
+  year={2020},
+  volume={abs/2002.01751}
+}
+``` 
+Code contact: [Runzhe Wan](runzhe.wan@gmail.com)
+
+
 ## Contributing
 
-<!---
-If you'd like to contribute, or have any suggestions for these guidelines, you can contact us at runzhe.wan@gmail.com or open an issue on this GitHub repository.
--->
 All contributions welcome! All content in this repository is licensed under the MIT license.
 
