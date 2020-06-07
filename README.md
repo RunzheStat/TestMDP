@@ -1,5 +1,14 @@
-## TestMDP
+# TestMDP: Does the Markov Decision Process Fit the Data: Testing for the Markov Property in Sequential Decision Making
+
 This repository contains the implementation for the paper "Does the Markov Decision Process Fit the Data: Testing for the Markov Property in Sequential Decision Making" (ICML 2020) in Python.
+
+## Summary of the paper
+
+The Markov assumption (MA) is fundamental to the empirical validity of reinforcement learning. In this paper, we propose a novel Forward-Backward Learning procedure to test MA in sequential decision making. The proposed test does not assume any parametric form on the joint distribution of the observed data and plays an important role for identifying the optimal policy in high-order Markov decision processes and partially observable MDPs. We apply our test to both synthetic datasets and a real data example from mobile health studies to illustrate its usefulness.
+
+![Causal diagrams for MDPs, HMDPs and POMDPs.](diag.png)
+
+
 
 ## Requirements
 Run `conda env create --file TestMDP.yml` to create the Conda environment and then run `conda activate TestMDP` to activate the environment.
