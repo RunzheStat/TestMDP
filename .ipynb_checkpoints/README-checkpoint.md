@@ -58,7 +58,6 @@ Please cite our paper
   volume={abs/2002.01751}
 }
 ``` 
-Code contact: [Runzhe Wan](runzhe.wan@gmail.com)
 
 
 ## Contributing
