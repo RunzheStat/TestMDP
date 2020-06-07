@@ -1,5 +1,5 @@
 
-# TestMDP: Does the Markov Decision Process Fit the Data: Testing for the Markov Property in Sequential Decision Making
+# Does the Markov Decision Process Fit the Data: Testing for the Markov Property in Sequential Decision Making
 
 This repository contains the implementation for the paper "Does the Markov Decision Process Fit the Data: Testing for the Markov Property in Sequential Decision Making" (ICML 2020) in Python.
 
@@ -34,8 +34,8 @@ Simply run the corresponding scripts:
 
 ## How to test the Markov property for your own data
 1. run `from _core_test_fun import *` to import required functions
-2. Algorithm 1: decide whether or not your data satisfies order-J Markov property
-    1. make sure your data, the observed trajectories, is a list of [X, A], each for one trajectory. Here, X is a T * dim_state_variable array for observed states, and A is a T * dim_action_variable array for observed actions. 
+2. Algorithm 1: decide whether or not your data satisfies J-th order Markov property
+    1. make sure your data, the observed trajectories, is a list of [X, A], each for one trajectory. Here, X is a T by dim_state_variable array for observed states, and A is a T by dim_action_variable array for observed actions. 
     2. run `test(data = data, J = J)`, and the output is the p-value. More optional parameters can be found in the file. 
 3. Algorithm 2: decide whether the system is an MDP (and its order) or the system is most likely to be a POMDP 
     1. make sure your data and parameters satisfy the requirement for  `test()`. 
