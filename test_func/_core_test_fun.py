@@ -63,7 +63,7 @@ def test(data, J = 1,
 
 
 
-def selectOrder(data, B, Q, L, alpha, K, paras="CV", n_trees = 200, 
+def selectOrder(data, B = 100, Q = 10, L = 3, alpha = 0.01, K = 10, paras="CV", n_trees = 200, 
                         print_time = False,
                         include_reward = False, fixed_state_comp = None, 
                         method = "QRF"): 

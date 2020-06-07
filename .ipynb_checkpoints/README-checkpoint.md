@@ -31,3 +31,13 @@ Simply run the corresponding scripts:
 1. Figure 2: `Ohio_simu_testing.py`
 2. Figure 3: `Ohio_simu_values.py` and `Ohio_simu_seq_lags.py`
 3. Figure 4: `Tiger_simu.py`
+
+## How to test the Markov property for your own data
+1. run `from _core_test_fun import *` to import required functions
+2. Algorithm 1: decide whether or not your data satisfies order-J Markov property
+    1. make sure your data, the observed trajectories, is a list of [X, A], each for one trajectory. Here, X is a T * dim_state_variable array for observed states, and A is a T * dim_action_variable array for observed actions. 
+    2. run `test(data = data, J = J)`, and the output is the p-value. More optional parameters can be found in the file. 
+3. Algorithm 2: decide whether the system is an MDP (and its order) or the system is most likely to be a POMDP 
+    1. make sure your data and parameters satisfy the requirement for  `test()`. 
+    2. specify the significance level alpha and order upper bound K. 
+    2. run `selectOrder(data = data, K = K, alpha = alpha)`. More optional parameters can be found in the file. 
