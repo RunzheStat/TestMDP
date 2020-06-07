@@ -41,3 +41,11 @@ Simply run the corresponding scripts:
     1. make sure your data and parameters satisfy the requirement for  `test()`. 
     2. specify the significance level alpha and order upper bound K. 
     2. run `selectOrder(data = data, K = K, alpha = alpha)`. More optional parameters can be found in the file. 
+
+## Contributing
+
+<!---
+If you'd like to contribute, or have any suggestions for these guidelines, you can contact us at runzhe.wan@gmail.com or open an issue on this GitHub repository.
+-->
+All contributions welcome! All content in this repository is licensed under the MIT license.
+
