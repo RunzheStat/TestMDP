@@ -47,15 +47,16 @@ Simply run the corresponding scripts:
 ## Citation
 
 Please cite our paper
-[Does the Markov Decision Process Fit the Data: Testing for the Markov Property in Sequential Decision Making (ICML 2020)](https://arxiv.org/abs/2002.01751)
+[Does the Markov Decision Process Fit the Data: Testing for the Markov Property in Sequential Decision Making (ICML 2020)](http://proceedings.mlr.press/v119/shi20c/shi20c.pdf)
 
 ``` 
-@article{Shi2020DoesTM,
-  title={Does the Markov Decision Process Fit the Data: Testing for the Markov Property in Sequential Decision Making},
-  author={Chengchun Shi and Runzhe Wan and Rui Song and Wenbin Lu and Ling Leng},
-  journal={ArXiv},
+@inproceedings{shi2020does,
+  title={Does the Markov decision process fit the data: testing for the Markov property in sequential decision making},
+  author={Shi, Chengchun and Wan, Runzhe and Song, Rui and Lu, Wenbin and Leng, Ling},
+  booktitle={International Conference on Machine Learning},
+  pages={8807--8817},
   year={2020},
-  volume={abs/2002.01751}
+  organization={PMLR}
 }
 ``` 
 
