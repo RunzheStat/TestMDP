@@ -20,10 +20,10 @@ Change your working directory to this main folder, run `conda env create --file 
     5. `_QRF.py`: the random forests regressor used in our experiments.
     6. `_uti_basic.py` and `_utility.py`: helper functions
 1. `/experiment_script`: scripts for reproducing results. See next section. 
-2. `/experiment_func`: supporting functions for the experiments presented in the paper
-        2. `_DGP_Ohio.py`: simulate data and evaluate policies for the HMDP synthetic data section.
-        3. `_DGP_TIGER.py`: simulate data for the POMDP synthetic data section.
-        7. `_utility_RL.py`: RL algorithms used in the experiments, including FQI, FQE and related functions.
+2. `/experiment_func`: supporting functions for the experiments presented in the paper:
+    2. `_DGP_Ohio.py`: simulate data and evaluate policies for the HMDP synthetic data section.
+    3. `_DGP_TIGER.py`: simulate data for the POMDP synthetic data section.
+    7. `_utility_RL.py`: RL algorithms used in the experiments, including FQI, FQE and related functions.
 
 ## How to reproduce results in the paper
 Simply run the corresponding scripts:
